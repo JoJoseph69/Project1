@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TicTacToe</title>
+    <link rel="stylesheet" href="tic-tac-toe.css">
+  </head>
+  <body>
+    <p class="text">Tic Tac Toe</p>
+    <p></p>
+    <div class="js-turnText loss"></div>
+    <div class="js-computerModeInfo"></div>
+    <div class="js-resultText"></div>
+    <div class="js-resetButton"></div>
+    <div class="general-container">
+      <div class="tic-tac-toe-container">
+        <button
+        class="tic-tac-toe-field js-ttt-field0"
+        onclick="playGame('0')"
+        > 
+        </button>
+
+        <button
+          class="tic-tac-toe-field js-ttt-field1"
+          onclick="playGame('1')"
+        >
+        </button>
+
+        <button
+        class="tic-tac-toe-field js-ttt-field2"
+        onclick="playGame('2')"
+        > 
+        </button>
+
+        <button
+          class="tic-tac-toe-field js-ttt-field3"
+          onclick="playGame('3')"
+        >
+        </button>
+
+        <button
+        class="tic-tac-toe-field js-ttt-field4"
+        onclick="playGame('4')"
+        > 
+        </button>
+
+        <button
+          class="tic-tac-toe-field js-ttt-field5"
+          onclick="playGame('5')"
+        >
+        </button>
+
+        <button
+        class="tic-tac-toe-field js-ttt-field6"
+        onclick="playGame('6')"
+        > 
+        </button>
+
+        <button
+        class="tic-tac-toe-field js-ttt-field7"
+        onclick="playGame('7')"
+        > 
+        </button>
+
+        <button
+          class="tic-tac-toe-field js-ttt-field8"
+          onclick="playGame('8')"
+        >
+        </button>
+      </div>
+    </div>
+    <div class="button-container"><button class="reset-game-button" onclick="resetGameUpdate()">Reset Game</button></div>
+    <p class="settings-style">Settings:</p>
+    <div class="js-changeable-settings-area">
+      <p class="text-style js-turn">You turn first. Tap to change:</p>
+      <button class="js-change-turn but-sty" onclick="changeFirstTurn()">First turn: You</button>
+      <p class="text-style js-symbol">You are X. Tap to change:</p>
+      <button class="js-change-symbol but-sty" onclick="changeSymbol()">You: X Computer: O</button>
+    </div>
+    <p class="js-text-change-mode text-sytle2">You are currently playing against the computer. Tap to change to 2-player-mode:</p>
+    <button class="js-change-mode but-sty" onclick="changeMode()">ComputerMode</button>
+    <script src="tic-tac-toe.js"></script>
+  </body>
+</html>

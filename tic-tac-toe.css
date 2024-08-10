@@ -1,0 +1,121 @@
+@font-face {
+  font-family: TicTacToe;
+  src: url(TicTacToe.ttf);
+}
+
+
+.general-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 150px;
+}
+
+.tic-tac-toe-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100px 100px 100px;
+  gap: 2px;
+  background-color: black;
+  width: 300px;
+  padding: 8px;
+}
+
+.tic-tac-toe-field {
+  background-color: white;
+  border: none;
+}
+
+.text {
+  font-family: TicTacToe;
+  font-size: 90px;
+  text-align: center;
+  margin: 0;
+
+}
+
+.image-style {
+  height: 70px;
+}
+
+.settings-style {
+  font-size: 26px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.text-style {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 550;
+}
+
+.text-sytle2 {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 550;
+}
+
+.but-sty{
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.but-sty2 {
+  color: black;
+  background-color: rgb(226, 226, 226);
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.button-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: -120px;
+}
+
+.reset-game-button {
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 4px;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.reset-game-button:active {
+  color: black;
+  background-color: rgb(226, 226, 226);
+  border: none;
+  border-radius: 4px;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.win {
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-top: -2px;
+}
+
+.loss {
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
